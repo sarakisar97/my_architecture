@@ -30,7 +30,7 @@ class PostsListView extends StatelessWidget {
         else if(state is PostsLoadFailure){
           return ErrorViewer(
               errorText: state.error,
-              onRetryClicked: () => context.read<PostsCubit>().getPosts()
+              onRetryClicked: context.read<PostsCubit>().getPosts
           );
         }
         else{
