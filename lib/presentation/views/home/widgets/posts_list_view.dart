@@ -16,9 +16,8 @@ class PostsListView extends StatelessWidget {
           return ListView.separated(
               itemBuilder: (context, index) {
                 return PostItem(
-                    title: state.posts[index].title!,
-                    subtitle: state.posts[index].body!
-                );
+                    title: state.posts[index].title,
+                    subtitle: state.posts[index].body);
               },
               separatorBuilder: (context, index) => const SizedBox(height: 20.0),
               itemCount: state.posts.length

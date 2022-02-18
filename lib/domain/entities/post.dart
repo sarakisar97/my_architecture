@@ -1,16 +1,16 @@
 import 'package:equatable/equatable.dart';
 
 class Post extends Equatable{
-  int? userId;
-  int? id;
-  String? title;
-  String? body;
+  final int userId;
+  final int id;
+  final String title;
+  final String body;
 
-  Post({
-    this.userId,
-    this.id,
-    this.title,
-    this.body,
+  const Post({
+    required this.userId,
+    required this.id,
+    required this.title,
+    required this.body,
   });
 
   @override
