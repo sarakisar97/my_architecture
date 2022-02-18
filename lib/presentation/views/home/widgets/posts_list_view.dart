@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_architecture/presentation/cubit/posts_cubit.dart';
 import 'package:my_architecture/presentation/views/components/components.dart';
-import 'package:my_architecture/presentation/views/components/error_viewer.dart';
 import 'package:my_architecture/presentation/views/home/widgets/post_item.dart';
 
 class PostsListView extends StatelessWidget {
