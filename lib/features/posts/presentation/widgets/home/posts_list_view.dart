@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_architecture/features/posts/presentation/cubit/posts_cubit.dart';
-import 'package:my_architecture/features/posts/presentation/views/home/widgets/post_item.dart';
-
-import '../../../../../../core/widgets/widgets.dart';
+import 'package:my_architecture/features/posts/presentation/widgets/home/post_item.dart';
+import '../../../../../../../core/widgets/widgets.dart';
 
 class PostsListView extends StatelessWidget {
   const PostsListView({Key? key}) : super(key: key);

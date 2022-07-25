@@ -1,6 +1,5 @@
 import 'package:auto_route/auto_route.dart';
-
-import '../../features/posts/presentation/views/home/home_screen.dart';
+import '../../features/posts/presentation/screens/home/home_screen.dart';
 
 @MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',

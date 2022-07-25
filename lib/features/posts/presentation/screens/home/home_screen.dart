@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_architecture/features/posts/presentation/cubit/posts_cubit.dart';
-import 'package:my_architecture/features/posts/presentation/views/home/widgets/posts_list_view.dart';
 import 'package:my_architecture/injection_container.dart';
+import '../../widgets/home/posts_list_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
