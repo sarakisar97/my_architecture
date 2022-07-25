@@ -6,7 +6,7 @@ abstract class Failure extends Equatable{
 
 class OfflineFailure extends Failure{
   @override
-  String get message => 'You\'re offline';
+  String get message => 'No internet';
 
   @override
   List<Object?> get props => [];
